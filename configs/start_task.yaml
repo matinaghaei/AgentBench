@@ -2,5 +2,11 @@ definition:
   import: tasks/task_assembly.yaml
 
 start:
-  dbbench-std: 5
-  os-std: 5
+  dbbench-std: 1
+  os-std: 1
+  webshop-std: 1
+  m2w-std: 1
+  cg-std: 1
+  kg-std: 1
+  ltp-std: 1
+  alfworld-std: 1
