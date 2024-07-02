@@ -6,22 +6,22 @@ concurrency:
     os-std: 1
     webshop-std: 1
     m2w-std: 1
-    cg-std: 1
+    # cg-std: 1
     kg-std: 1
     ltp-std: 1
     alfworld-std: 1
   agent:
-    gpt-3.5-turbo: 8
+    langchain: 7
 
 assignments: # List[Assignment] | Assignment
   - agent: # "task": List[str] | str ,  "agent": List[str] | str
-      - gpt-3.5-turbo
+      - langchain
     task:
       - dbbench-std
       - os-std
       - webshop-std
       - m2w-std
-      - cg-std
+      # - cg-std
       - kg-std
       - ltp-std
       - alfworld-std

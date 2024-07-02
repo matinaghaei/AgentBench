@@ -23,7 +23,7 @@ text-davinci-002:
             max_tokens: 512
 
 openai:
-    module: src.client.agents.OpenAIAgent
+    module: src.client.agents.custom.OpenAIAgent
 
 langchain:
-    module: src.client.agents.LangChainAgent
+    module: src.client.agents.custom.LangChainAgent

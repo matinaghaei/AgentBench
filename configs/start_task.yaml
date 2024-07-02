@@ -6,7 +6,7 @@ start:
   os-std: 1
   webshop-std: 1
   m2w-std: 1
-  cg-std: 1
+  # cg-std: 1
   kg-std: 1
   ltp-std: 1
   alfworld-std: 1
