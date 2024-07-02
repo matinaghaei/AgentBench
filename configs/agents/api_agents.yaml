@@ -21,3 +21,9 @@ text-davinci-002:
         body:
             model: "text-davinci-002"
             max_tokens: 512
+
+openai:
+    module: src.client.agents.OpenAIAgent
+
+langchain:
+    module: src.client.agents.LangChainAgent
