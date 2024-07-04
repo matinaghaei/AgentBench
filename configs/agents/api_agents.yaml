@@ -27,3 +27,11 @@ openai:
 
 langchain:
     module: src.client.agents.custom.LangChainAgent
+
+gpt-4o:
+    import: "./openai-chat.yaml"
+    parameters:
+        name: "gpt-4o"
+        body:
+            model: "gpt-4o"
+            max_tokens: 512

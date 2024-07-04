@@ -22,7 +22,7 @@ class LangChainAgent(AgentClient):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.model = ChatOpenAI(model="gpt-3.5-turbo")
+        self.model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
     def inference(self, history: List[dict]) -> str:
         # return "I received {} items in history.".format(len(history))
