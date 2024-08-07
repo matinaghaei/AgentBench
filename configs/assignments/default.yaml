@@ -11,11 +11,15 @@ concurrency:
     ltp-std: 1
     alfworld-std: 1
   agent:
-    gpt-3.5-turbo: 8
+    # gpt-3.5-turbo: 8
+    # gpt-4o: 8
+    gpt-4o-mini: 8
 
 assignments: # List[Assignment] | Assignment
   - agent: # "task": List[str] | str ,  "agent": List[str] | str
-      - gpt-3.5-turbo
+      # - gpt-3.5-turbo
+      # - gpt-4o
+      - gpt-4o-mini
     task:
       - dbbench-std
       - os-std
